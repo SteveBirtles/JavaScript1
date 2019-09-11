@@ -13,7 +13,7 @@ function rainbow(c) {
     } if (c < 5) {
         return `rgb(${255*(c-4)}, 0, 255)`; // blue -> magenta
     } else {
-        return `rgb(255, 0, ${255*(5-c)})`; // magenta -> red
+        return `rgb(255, 0, ${255*(6-c)})`; // magenta -> red
     }
 }
 
