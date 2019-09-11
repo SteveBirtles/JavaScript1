@@ -43,7 +43,7 @@ function redraw() {
 
   for (let i = 0; i < w; i += w/64) {
     for (let j = 0; j < h; j += h/48) {
-      context.fillStyle = rainbow(t/20 + Math.cos(12*i/w) + 8*j/h);
+      context.fillStyle = rainbow(t/20 + Math.cos(12.75*i/w) + 8*j/h);
       context.beginPath();
       context.rect(i, j, w/64, h/48);
       context.fill();
